@@ -94,15 +94,7 @@ ScrollReveal().reveal(".banner__btn", {
   delay: 1000,
 });
 
-const swiper = new Swiper(".swiper", {
-  slidesPerView: 2,
-  spaceBetween: 50,
-  loop: true,
 
-  pagination: {
-    el: ".swiper-pagination",
-  },
-});
 
 ScrollReveal().reveal(".blog__card", {
   ...scrollRevealOption,
